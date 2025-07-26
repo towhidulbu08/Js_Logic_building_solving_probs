@@ -1,4 +1,4 @@
-// function sayHi() {
+//P-01 function sayHi() {
 //   console.log(name);
 //   console.log(age);
 //   var name = 'Lydia';
@@ -106,13 +106,27 @@
 
 //console.log(member.getFullName());
 
-function Person(firstName, lastName) {
-  this.firstName = firstName;
-  this.lastName = lastName;
+//P-12 function Person(firstName, lastName) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+// }
+
+// const lydia = new Person("Lydia", "Hallie");
+// const sarah = Person("Sarah", "Smith");
+
+// console.log(lydia);
+//console.log(sarah);
+
+
+///P-13. What are the three phases of event propagation?
+
+function getPersonInfo(one, two, three) {
+  console.log(one);
+  console.log(two);
+  console.log(three);
 }
 
-const lydia = new Person("Lydia", "Hallie");
-const sarah = Person("Sarah", "Smith");
+const person = 'Lydia';
+const age = 21;
 
-console.log(lydia);
-console.log(sarah);
+getPersonInfo`${person} is ${age} years old`;
